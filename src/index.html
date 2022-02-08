@@ -7,31 +7,20 @@
 <body>
     <div>
         <form>
-            <label for="pro-id">Product Id</label>
-            <input type="text" class="text-field" id="ID" name="pro-id">
+            <label for="id">Product Id</label>
+            <input type="number" class="text-field" id="ID" name="id">
             <br>
-            <label for="pro-name">Product Name</label>
-            <input type="text" class="text-field" id="Name" name="pro-name">
+            <label for="name">Product Name</label>
+            <input type="text" class="text-field" id="Name" name="name">
             <br>
-            <label for="pro-price">Product Price</label>
-            <input type="text" class="text-field" id="Price" name="pro-price">
+            <label for="price">Product Price</label>
+            <input type="number" class="text-field" id="Price" name="price">
             <br>
             <input type="button" id="Button" onclick="Function()" value="ADD PRODUCT"> 
         </form>
     </div>
     <div>
-        <table id="table1">
-            <tr> 
-                <td class="Product-details" id="pr-ID">Product Id</td>
-                <td class="Product-details" id="pr-Name">Product Name</td>
-                <td id="pr-Price">Product Price</td>
-            </tr>
-            <tr class="Entries">
-                <td class="Pr-entries" id="Enter-ID"></td>
-                <td class="Pr-entries" id="Enter-name"></td>
-                <td class="Pr-entries" id="Enter-price"></td>
-            </tr>
-        </table>
+        <table id="table1"></table>
     </div>
     <script src="script.js"></script>
 </body>
